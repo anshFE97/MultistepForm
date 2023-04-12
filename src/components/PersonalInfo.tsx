@@ -36,7 +36,7 @@ const PersonalInfo: React.FC<PersonalInfoProps> = ({ onClick }) => {
 
   return (
     <form onSubmit={handleSubmit} className="flex relative flex-col gap-10">
-      <div className="bg-sky-100 md:bg-inherit p-8 left-6  -top-16 rounded-lg md:p-0 md:inset-0 absolute md:relative">
+      <div className="bg-sky-100 md:bg-inherit p-8 left-2 w-[320px] md:w-auto  -top-16 rounded-lg md:p-0 md:inset-0 absolute md:relative">
       <div className="flex flex-col items-start justify-start gap-2">
         <h1 className="text-2xl md:text-3xl font-bold text-[#02295A]">Personal Info</h1>
         <span className="text-sm font-medium opacity-50">
